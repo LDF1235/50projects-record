@@ -20,6 +20,7 @@ module.exports = {
   endOfLine: 'auto',
   embeddedLanguageFormatting: 'auto',
   singleAttributePerLine: true,
+  organizeImportsSkipDestructiveCodeActions: true,
   plugins: ['prettier-plugin-tailwindcss', 'prettier-plugin-organize-imports'],
   tailwindConfig: './tailwind.config.js',
 };

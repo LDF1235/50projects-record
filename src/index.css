@@ -6,6 +6,29 @@
   html,
   body,
   #root {
-    @apply h-full;
+    @apply h-full font-['Open_Sans',sans-serif];
+  }
+}
+
+@keyframes skeleton-loading {
+  0% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@layer components {
+  .mc-skeleton {
+    background: linear-gradient(
+      90deg,
+      hsla(0, 0%, 74.5%, 0.2) 25%,
+      hsla(0, 0%, 50.6%, 0.24) 37%,
+      hsla(0, 0%, 74.5%, 0.2) 63%
+    );
+    background-size: 400% 100%;
+    animation: skeleton-loading 3s ease infinite;
   }
 }

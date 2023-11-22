@@ -19,6 +19,10 @@ const routes: RouteObject[] = [
     path: '/expanding-cards',
     element: lazyLoadPage('ExpandingCards'),
   },
+  {
+    path: '/progress-steps',
+    element: lazyLoadPage('ProgressSteps'),
+  },
 ];
 
 export { routes };

@@ -1,4 +1,5 @@
-import React from 'react';
+import clsx from 'clsx';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
 interface Props {
@@ -11,12 +12,17 @@ interface Props {
 const DemoCard = (props: Props) => {
   const { coverAlt, coverUrl, title, linkTo } = props;
 
+  const [coverLoadOk, setCoverLoadOk] = useState(false);
+
   return (
-    <div className='relative w-[18%] grow aspect-[681/484] mc-skeleton '>
+    <div className={clsx('relative w-[18%] grow aspect-[681/484]', coverLoadOk ? '' : 'mc-skeleton')}>
       <img
         src={coverUrl}
         alt={coverAlt}
         className='w-full absolute left-0 top-0'
+        onLoad={() => {
+          setCoverLoadOk(true);
+        }}
       />
 
       <div className='flex items-center justify-center flex-col w-full h-full absolute left-0 top-0 z-[1] cursor-pointer opacity-0 hover:opacity-100 transition-[opacity] duration-300 ease-in bg-[#9901ff]'>

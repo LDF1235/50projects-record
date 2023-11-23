@@ -21,7 +21,6 @@ const Home = () => {
         <div className='w-[18%] invisible grow aspect-[681/484] mc-skeleton '></div>
         <div className='w-[18%] invisible grow aspect-[681/484] mc-skeleton '></div>
         <div className='w-[18%] invisible grow aspect-[681/484] mc-skeleton '></div>
-        <div className='w-[18%] invisible grow aspect-[681/484] mc-skeleton '></div>
       </div>
     </div>
   );

@@ -33,7 +33,7 @@ const ProgressSteps = () => {
               width: curStep * 33.333 + '%',
             }}
             className='absolute left-0 top-1/2 translate-y-[-50%] h-[3px] bg-[#479ad9] z-[1] transition-[width] duration-[400ms] '
-          ></div>
+          />
           {steps.map(x => {
             return (
               <div

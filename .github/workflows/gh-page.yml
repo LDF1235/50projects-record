@@ -27,8 +27,8 @@ jobs:
       # step 3. 安装依赖并打包
       - name: Install and Build 🔧
         run: |
-          npm install
-          npm run build
+          pnpm install
+          pnpm run build
 
       # step 4. 项目部署, 将打包后的产物合并到指定的分支上
       - name: Deploy 🚀 # 步骤名

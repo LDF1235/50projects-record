@@ -24,13 +24,19 @@ jobs:
         with: # 插件携带参数
           node-version: '16' # 指定 node 版本
 
-      # step 3. 安装依赖并打包
+      # step 3. 安装pnpm
+      - name: Install pnpm
+        uses: pnpm/action-setup@v2
+        with:
+          version: 8.10.2
+
+      # step 4. 安装依赖并打包
       - name: Install and Build 🔧
         run: |
-          npm install
-          npm run build
+          pnpm install
+          pnpm run build
 
-      # step 4. 项目部署, 将打包后的产物合并到指定的分支上
+      # step 5. 项目部署, 将打包后的产物合并到指定的分支上
       - name: Deploy 🚀 # 步骤名
         uses: JamesIves/github-pages-deploy-action@v4.2.2 # 使用插件 => https://github.com/JamesIves/github-pages-deploy-action
         with:

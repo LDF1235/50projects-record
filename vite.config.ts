@@ -12,5 +12,13 @@ export default defineConfig({
   server: {
     open: true,
   },
-  base:'/50projects-record'
+  base: '/50projects-record',
+  build: {
+    rollupOptions: {
+      input: {
+        index: '/index.html',
+        404: '/404.html',
+      },
+    },
+  },
 });

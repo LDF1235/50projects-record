@@ -1,6 +1,7 @@
 import DemoCard from '@/components/DemoCard';
 import expandingCardsPng from '../assets/home/1-expanding-cards.png';
 import progressStepsPng from '../assets/home/2-progress-steps.png';
+import rotatingNavigationAnimationPng from '../assets/home/3-rotating-navigation-animation.png';
 
 const Home = () => {
   return (
@@ -18,7 +19,12 @@ const Home = () => {
           title='Progress Steps'
           linkTo='/progress-steps'
         />
-        <div className='w-[18%] invisible grow aspect-[681/484] mc-skeleton '></div>
+        <DemoCard
+          coverAlt='rotating-navigation-animation'
+          coverUrl={rotatingNavigationAnimationPng}
+          title='Rotating Navigation Animation'
+          linkTo='/rotating-navigation-animation'
+        />
         <div className='w-[18%] invisible grow aspect-[681/484] mc-skeleton '></div>
         <div className='w-[18%] invisible grow aspect-[681/484] mc-skeleton '></div>
       </div>

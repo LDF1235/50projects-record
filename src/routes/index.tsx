@@ -24,6 +24,10 @@ const routes: RouteObject[] = [
     element: lazyLoadPage('ProgressSteps'),
   },
   {
+    path: '/rotating-navigation-animation',
+    element: lazyLoadPage('RotatingNavigationAnimation'),
+  },
+  {
     path: '*',
     element: lazyLoadPage('Home'),
   },

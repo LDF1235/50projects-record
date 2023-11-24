@@ -28,6 +28,10 @@ const routes: RouteObject[] = [
     element: lazyLoadPage('RotatingNavigationAnimation'),
   },
   {
+    path: '/hidden-search-widget',
+    element: lazyLoadPage('HiddenSearchWidget'),
+  },
+  {
     path: '*',
     element: lazyLoadPage('Home'),
   },

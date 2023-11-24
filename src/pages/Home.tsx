@@ -2,6 +2,7 @@ import DemoCard from '@/components/DemoCard';
 import expandingCardsPng from '../assets/home/1-expanding-cards.png';
 import progressStepsPng from '../assets/home/2-progress-steps.png';
 import rotatingNavigationAnimationPng from '../assets/home/3-rotating-navigation-animation.png';
+import hiddenSearchWidgetPng from '../assets/home/4-hidden-search-widget.png';
 
 const Home = () => {
   return (
@@ -25,7 +26,12 @@ const Home = () => {
           title='Rotating Navigation Animation'
           linkTo='/rotating-navigation-animation'
         />
-        <div className='w-[18%] invisible grow aspect-[681/484] mc-skeleton '></div>
+        <DemoCard
+          coverAlt='hidden-search-widget'
+          coverUrl={hiddenSearchWidgetPng}
+          title='Hidden Search Widget'
+          linkTo='/hidden-search-widget'
+        />
         <div className='w-[18%] invisible grow aspect-[681/484] mc-skeleton '></div>
       </div>
     </div>

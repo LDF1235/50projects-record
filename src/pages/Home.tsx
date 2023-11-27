@@ -3,6 +3,7 @@ import expandingCardsPng from '../assets/home/1-expanding-cards.png';
 import progressStepsPng from '../assets/home/2-progress-steps.png';
 import rotatingNavigationAnimationPng from '../assets/home/3-rotating-navigation-animation.png';
 import hiddenSearchWidgetPng from '../assets/home/4-hidden-search-widget.png';
+import blurryLoadingPng from '../assets/home/5-blurry-loading.png';
 
 const Home = () => {
   return (
@@ -32,7 +33,12 @@ const Home = () => {
           title='Hidden Search Widget'
           linkTo='/hidden-search-widget'
         />
-        <div className='w-[18%] invisible grow aspect-[681/484] mc-skeleton '></div>
+        <DemoCard
+          coverAlt='blurry-loading'
+          coverUrl={blurryLoadingPng}
+          title='Blurry Loading'
+          linkTo='/blurry-loading'
+        />
       </div>
     </div>
   );

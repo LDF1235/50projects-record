@@ -32,6 +32,10 @@ const routes: RouteObject[] = [
     element: lazyLoadPage('HiddenSearchWidget'),
   },
   {
+    path: '/blurry-loading',
+    element: lazyLoadPage('BlurryLoading'),
+  },
+  {
     path: '*',
     element: lazyLoadPage('Home'),
   },

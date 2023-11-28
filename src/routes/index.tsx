@@ -44,6 +44,10 @@ const routes: RouteObject[] = [
     element: lazyLoadPage('SplitLandingPage'),
   },
   {
+    path: '/form-wave',
+    element: lazyLoadPage('FormWave'),
+  },
+  {
     path: '*',
     element: lazyLoadPage('Home'),
   },

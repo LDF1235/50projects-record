@@ -6,6 +6,7 @@ import hiddenSearchWidgetPng from '../assets/home/4-hidden-search-widget.png';
 import blurryLoadingPng from '../assets/home/5-blurry-loading.png';
 import scrollAnimationPng from '../assets/home/6-scroll-animation.png';
 import splitLandingPagePng from '../assets/home/7-split-landing-page.png';
+import formWavePng from '../assets/home/8-form-wave.png';
 
 const Home = () => {
   return (
@@ -70,6 +71,12 @@ const cards = [
     coverUrl: splitLandingPagePng,
     title: 'Split Landing Page',
     linkTo: '/split-landing-page',
+  },
+  {
+    coverAlt: 'form-wave',
+    coverUrl: formWavePng,
+    title: 'Form Wave',
+    linkTo: '/form-wave',
   },
 ];
 

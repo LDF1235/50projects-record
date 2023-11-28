@@ -40,6 +40,10 @@ const routes: RouteObject[] = [
     element: lazyLoadPage('ScrollAnimation'),
   },
   {
+    path: '/split-landing-page',
+    element: lazyLoadPage('SplitLandingPage'),
+  },
+  {
     path: '*',
     element: lazyLoadPage('Home'),
   },

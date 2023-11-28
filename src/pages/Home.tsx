@@ -4,6 +4,7 @@ import progressStepsPng from '../assets/home/2-progress-steps.png';
 import rotatingNavigationAnimationPng from '../assets/home/3-rotating-navigation-animation.png';
 import hiddenSearchWidgetPng from '../assets/home/4-hidden-search-widget.png';
 import blurryLoadingPng from '../assets/home/5-blurry-loading.png';
+import scrollAnimationPng from '../assets/home/6-scroll-animation.png';
 
 const Home = () => {
   return (
@@ -39,6 +40,16 @@ const Home = () => {
           title='Blurry Loading'
           linkTo='/blurry-loading'
         />
+        <DemoCard
+          coverAlt='scroll-animation'
+          coverUrl={scrollAnimationPng}
+          title='Scroll Animation'
+          linkTo='/scroll-animation'
+        />
+        <div className='w-[18%] invisible grow aspect-[681/484] mc-skeleton ' />
+        <div className='w-[18%] invisible grow aspect-[681/484] mc-skeleton ' />
+        <div className='w-[18%] invisible grow aspect-[681/484] mc-skeleton ' />
+        <div className='w-[18%] invisible grow aspect-[681/484] mc-skeleton ' />
       </div>
     </div>
   );

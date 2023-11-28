@@ -36,6 +36,10 @@ const routes: RouteObject[] = [
     element: lazyLoadPage('BlurryLoading'),
   },
   {
+    path: '/scroll-animation',
+    element: lazyLoadPage('ScrollAnimation'),
+  },
+  {
     path: '*',
     element: lazyLoadPage('Home'),
   },

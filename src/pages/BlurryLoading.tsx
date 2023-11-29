@@ -21,7 +21,7 @@ const BlurryLoading = () => {
         src={photo}
         onLoad={startTimer}
         onError={startTimer}
-        className='absolute left-0 top-0 z-[-1] opacity-0'
+        className='hidden'
       />
       <div
         style={{

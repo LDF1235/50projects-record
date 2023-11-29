@@ -56,6 +56,10 @@ const routes: RouteObject[] = [
     element: lazyLoadPage('DadJokes'),
   },
   {
+    path: '/event-keycodes',
+    element: lazyLoadPage('EventKeycodes'),
+  },
+  {
     path: '*',
     element: lazyLoadPage('Home'),
   },

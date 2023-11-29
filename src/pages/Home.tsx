@@ -1,6 +1,7 @@
 import DemoCard from '@/components/DemoCard';
 import expandingCardsPng from '../assets/home/1-expanding-cards.png';
 import dadJokesPng from '../assets/home/10-dad-jokes.png';
+import eventKeycodesPng from '../assets/home/11-event-keycodes.png';
 import progressStepsPng from '../assets/home/2-progress-steps.png';
 import rotatingNavigationAnimationPng from '../assets/home/3-rotating-navigation-animation.png';
 import hiddenSearchWidgetPng from '../assets/home/4-hidden-search-widget.png';
@@ -91,6 +92,12 @@ const cards = [
     coverUrl: dadJokesPng,
     title: 'Dad Jokes',
     linkTo: '/dad-jokes',
+  },
+  {
+    coverAlt: 'event-keycodes',
+    coverUrl: eventKeycodesPng,
+    title: 'Event Keycodes',
+    linkTo: '/event-keycodes',
   },
 ];
 

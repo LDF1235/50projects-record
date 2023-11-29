@@ -7,6 +7,7 @@ import blurryLoadingPng from '../assets/home/5-blurry-loading.png';
 import scrollAnimationPng from '../assets/home/6-scroll-animation.png';
 import splitLandingPagePng from '../assets/home/7-split-landing-page.png';
 import formWavePng from '../assets/home/8-form-wave.png';
+import soundBoardPng from '../assets/home/9-sound-board.png';
 
 const Home = () => {
   return (
@@ -77,6 +78,12 @@ const cards = [
     coverUrl: formWavePng,
     title: 'Form Wave',
     linkTo: '/form-wave',
+  },
+  {
+    coverAlt: 'sound-board',
+    coverUrl: soundBoardPng,
+    title: 'Sound Board',
+    linkTo: '/sound-board',
   },
 ];
 

@@ -48,6 +48,10 @@ const routes: RouteObject[] = [
     element: lazyLoadPage('FormWave'),
   },
   {
+    path: '/sound-board',
+    element: lazyLoadPage('SoundBoard'),
+  },
+  {
     path: '*',
     element: lazyLoadPage('Home'),
   },

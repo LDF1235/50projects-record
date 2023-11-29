@@ -22,7 +22,7 @@ const Home = () => {
             {...x}
           />
         ))}
-        {Array.from({ length: Math.ceil(cards.length / 10) * 10 - cards.length }).map((_, i) => (
+        {Array.from({ length: Math.ceil(cards.length / 5) * 5 - cards.length }).map((_, i) => (
           <div
             key={i}
             className='w-[18%] invisible grow aspect-[681/484] mc-skeleton '

@@ -60,6 +60,10 @@ const routes: RouteObject[] = [
     element: lazyLoadPage('EventKeycodes'),
   },
   {
+    path: '/faq-collapse',
+    element: lazyLoadPage('FaqCollapse'),
+  },
+  {
     path: '*',
     element: lazyLoadPage('Home'),
   },

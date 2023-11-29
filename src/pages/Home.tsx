@@ -2,6 +2,7 @@ import DemoCard from '@/components/DemoCard';
 import expandingCardsPng from '../assets/home/1-expanding-cards.png';
 import dadJokesPng from '../assets/home/10-dad-jokes.png';
 import eventKeycodesPng from '../assets/home/11-event-keycodes.png';
+import faqCollapsePng from '../assets/home/12-faq-collapse.png';
 import progressStepsPng from '../assets/home/2-progress-steps.png';
 import rotatingNavigationAnimationPng from '../assets/home/3-rotating-navigation-animation.png';
 import hiddenSearchWidgetPng from '../assets/home/4-hidden-search-widget.png';
@@ -13,7 +14,7 @@ import soundBoardPng from '../assets/home/9-sound-board.png';
 
 const Home = () => {
   return (
-    <div className='bg-[#333333] h-full'>
+    <div className='bg-[#333333] min-h-full'>
       <div className='flex flex-wrap gap-[2px]  '>
         {cards.map(x => (
           <DemoCard
@@ -98,6 +99,12 @@ const cards = [
     coverUrl: eventKeycodesPng,
     title: 'Event Keycodes',
     linkTo: '/event-keycodes',
+  },
+  {
+    coverAlt: 'faq-collapse',
+    coverUrl: faqCollapsePng,
+    title: 'Faq Collapse',
+    linkTo: '/faq-collapse',
   },
 ];
 

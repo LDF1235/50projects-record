@@ -52,6 +52,10 @@ const routes: RouteObject[] = [
     element: lazyLoadPage('SoundBoard'),
   },
   {
+    path: '/dad-jokes',
+    element: lazyLoadPage('DadJokes'),
+  },
+  {
     path: '*',
     element: lazyLoadPage('Home'),
   },

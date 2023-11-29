@@ -1,25 +1,27 @@
-import { useEffect, useRef, useState } from 'react';
+import { useRef, useState } from 'react';
+import photo from '../assets/blurryLoading/photo-1576161787924-01bb08dad4a4.avif';
 
 const BlurryLoading = () => {
   const [percent, setPercent] = useState(0);
   const percentRef = useRef(percent);
   percentRef.current = percent;
 
-  useEffect(() => {
-    const start = () => {
-      setTimeout(() => {
-        if (percentRef.current >= 100) return;
+  const startTimer = () => {
+    setTimeout(() => {
+      if (percentRef.current >= 100) return;
 
-        setPercent(x => x + 1);
-        start();
-      }, 30);
-    };
-
-    start();
-  }, []);
+      setPercent(x => x + 1);
+      startTimer();
+    }, 30);
+  };
 
   return (
     <div className='h-full overflow-hidden'>
+      <img
+        src={photo}
+        onLoad={startTimer}
+        onError={startTimer}
+      />
       <div
         style={{
           filter: `blur(${((100 - percent) / 100) * 30}px)`,

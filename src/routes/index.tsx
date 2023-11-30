@@ -68,6 +68,10 @@ const routes: RouteObject[] = [
     element: lazyLoadPage('RandomChoicePicker'),
   },
   {
+    path: '/animated-navigation',
+    element: lazyLoadPage('AnimatedNavigation'),
+  },
+  {
     path: '*',
     element: lazyLoadPage('Home'),
   },

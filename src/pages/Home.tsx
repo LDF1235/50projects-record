@@ -4,6 +4,7 @@ import dadJokesPng from '../assets/home/10-dad-jokes.png';
 import eventKeycodesPng from '../assets/home/11-event-keycodes.png';
 import faqCollapsePng from '../assets/home/12-faq-collapse.png';
 import randomChoicePickerPng from '../assets/home/13-random-choice-picker.png';
+import animatedNavigationPng from '../assets/home/14-animated-navigation.png';
 import progressStepsPng from '../assets/home/2-progress-steps.png';
 import rotatingNavigationAnimationPng from '../assets/home/3-rotating-navigation-animation.png';
 import hiddenSearchWidgetPng from '../assets/home/4-hidden-search-widget.png';
@@ -112,6 +113,12 @@ const cards = [
     coverUrl: randomChoicePickerPng,
     title: 'Random Choice Picker',
     linkTo: '/random-choice-picker',
+  },
+  {
+    coverAlt: 'animated-navigation',
+    coverUrl: animatedNavigationPng,
+    title: 'Animated Navigation',
+    linkTo: '/animated-navigation',
   },
 ];
 

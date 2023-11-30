@@ -64,6 +64,10 @@ const routes: RouteObject[] = [
     element: lazyLoadPage('FaqCollapse'),
   },
   {
+    path: '/random-choice-picker',
+    element: lazyLoadPage('RandomChoicePicker'),
+  },
+  {
     path: '*',
     element: lazyLoadPage('Home'),
   },

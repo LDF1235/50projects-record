@@ -72,6 +72,10 @@ const routes: RouteObject[] = [
     element: lazyLoadPage('AnimatedNavigation'),
   },
   {
+    path: '/incrementing-counter',
+    element: lazyLoadPage('IncrementingCounter'),
+  },
+  {
     path: '*',
     element: lazyLoadPage('Home'),
   },

@@ -47,7 +47,7 @@ const MovieApp = () => {
     fetchMovies();
   }, []);
 
-  const handleSearchKeyDown = (e: React.KeyboardEvent<HTMLInputElement>) => {
+  const handleSearchKeyUp = (e: React.KeyboardEvent<HTMLInputElement>) => {
     if (e.key !== 'Enter') return;
 
     const query = searchText.trim();
@@ -68,7 +68,7 @@ const MovieApp = () => {
           onChange={e => {
             setSearchText(e.target.value);
           }}
-          onKeyUp={handleSearchKeyDown}
+          onKeyUp={handleSearchKeyUp}
         />
       </nav>
 

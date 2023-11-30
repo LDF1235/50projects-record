@@ -15,6 +15,7 @@ import scrollAnimationPng from '../assets/home/6-scroll-animation.png';
 import splitLandingPagePng from '../assets/home/7-split-landing-page.png';
 import formWavePng from '../assets/home/8-form-wave.png';
 import soundBoardPng from '../assets/home/9-sound-board.png';
+import movieAppPng from '../assets/home/17-movie-app.png';
 
 const Home = () => {
   return (
@@ -133,6 +134,12 @@ const cards = [
     coverUrl: drinkWaterPng,
     title: 'Drink Water',
     linkTo: '/drink-water',
+  },
+  {
+    coverAlt: 'movie-app',
+    coverUrl: movieAppPng,
+    title: 'Movie App',
+    linkTo: '/movie-app',
   },
 ];
 

@@ -80,6 +80,10 @@ const routes: RouteObject[] = [
     element: lazyLoadPage('DrinkWater'),
   },
   {
+    path: '/movie-app',
+    element: lazyLoadPage('MovieApp'),
+  },
+  {
     path: '*',
     element: lazyLoadPage('Home'),
   },

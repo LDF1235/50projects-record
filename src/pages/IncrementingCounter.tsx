@@ -36,6 +36,7 @@ const IncrementingCounter = () => {
       <div className='flex items-center gap-8'>
         <div className='flex flex-col items-center text-white'>
           <FontAwesomeIcon
+            // @ts-ignore
             icon={faTwitter}
             className='text-[40px]'
           />
@@ -45,6 +46,7 @@ const IncrementingCounter = () => {
 
         <div className='flex flex-col items-center text-white'>
           <FontAwesomeIcon
+            // @ts-ignore
             icon={faYoutube}
             className='text-[40px]'
           />
@@ -54,6 +56,7 @@ const IncrementingCounter = () => {
 
         <div className='flex flex-col items-center text-white'>
           <FontAwesomeIcon
+            // @ts-ignore
             icon={faFacebook}
             className='text-[40px]'
           />

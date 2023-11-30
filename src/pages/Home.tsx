@@ -6,6 +6,7 @@ import faqCollapsePng from '../assets/home/12-faq-collapse.png';
 import randomChoicePickerPng from '../assets/home/13-random-choice-picker.png';
 import animatedNavigationPng from '../assets/home/14-animated-navigation.png';
 import incrementingCounterPng from '../assets/home/15-incrementing-counter.png';
+import drinkWaterPng from '../assets/home/16-drink-water.png';
 import progressStepsPng from '../assets/home/2-progress-steps.png';
 import rotatingNavigationAnimationPng from '../assets/home/3-rotating-navigation-animation.png';
 import hiddenSearchWidgetPng from '../assets/home/4-hidden-search-widget.png';
@@ -126,6 +127,12 @@ const cards = [
     coverUrl: incrementingCounterPng,
     title: 'Incrementing Counter',
     linkTo: '/incrementing-counter',
+  },
+  {
+    coverAlt: 'drink-water',
+    coverUrl: drinkWaterPng,
+    title: 'Drink Water',
+    linkTo: '/drink-water',
   },
 ];
 

@@ -76,6 +76,10 @@ const routes: RouteObject[] = [
     element: lazyLoadPage('IncrementingCounter'),
   },
   {
+    path: '/drink-water',
+    element: lazyLoadPage('DrinkWater'),
+  },
+  {
     path: '*',
     element: lazyLoadPage('Home'),
   },

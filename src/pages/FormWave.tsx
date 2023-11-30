@@ -29,7 +29,7 @@ const FormWave = () => {
   };
 
   return (
-    <div className='h-full bg-[#4F83B2] flex justify-center items-center leading-none'>
+    <div className='min-h-full bg-[#4F83B2] flex justify-center items-center leading-none'>
       <div className='rounded-[5px] px-[40px] py-[20px] bg-[#2F4F6B]'>
         <h1 className='mt-[21px] mb-[30px] text-[32px] text-white font-bold text-center'>Please Login</h1>
         <form>

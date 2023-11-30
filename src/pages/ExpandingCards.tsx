@@ -14,7 +14,7 @@ const ExpandingCards = () => {
 
   return (
     <div className='h-full flex items-center justify-center'>
-      <div className='w-[90%] h-[1027px] flex'>
+      <div className='w-[90%] h-[80%] flex'>
         {images.map((x, i) => (
           <div
             key={x.bgClass}

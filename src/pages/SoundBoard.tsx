@@ -31,7 +31,7 @@ const SoundBoard = () => {
   };
 
   return (
-    <div className='h-full bg-[#a164df] flex justify-center items-center font-["Poppins",sans-serif]'>
+    <div className='min-h-full bg-[#a164df] flex justify-center items-center font-["Poppins",sans-serif]'>
       {btns.map((x, i) => (
         <button
           className={clsx(

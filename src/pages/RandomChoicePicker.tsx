@@ -38,7 +38,7 @@ const RandomChoicePicker = () => {
   };
 
   return (
-    <div className='h-full bg-[#3D8BED] flex items-center justify-center font-[Muli,sans-serif]'>
+    <div className='min-h-full bg-[#3D8BED] flex items-center justify-center font-[Muli,sans-serif]'>
       <div className='w-[500px] flex flex-col items-center'>
         <p className='text-white font-bold text-lg '>Enter all of the choices divided by a comma (',').</p>
         <p className='text-white font-bold text-lg '>Press enter when you're done</p>

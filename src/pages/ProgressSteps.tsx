@@ -20,7 +20,7 @@ const ProgressSteps = () => {
   };
 
   return (
-    <div className='flex items-center justify-center h-full bg-[#f6f7fb]'>
+    <div className='flex items-center justify-center min-h-full bg-[#f6f7fb]'>
       <div className='flex items-center flex-col'>
         <div
           className={clsx(

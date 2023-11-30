@@ -27,7 +27,7 @@ const EventKeycodes = () => {
   }, []);
 
   return (
-    <div className='h-full bg-[#e1e1e1] flex justify-center items-center font-[Muli,sans-serif]'>
+    <div className='min-h-full bg-[#e1e1e1] flex justify-center items-center font-[Muli,sans-serif]'>
       <div
         className={clsx(
           showKeycodes ? 'hidden' : '',

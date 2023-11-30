@@ -47,7 +47,7 @@ const DadJokes = () => {
   };
 
   return (
-    <div className='h-full bg-[#686de0] flex justify-center items-center'>
+    <div className='min-h-full bg-[#686de0] flex justify-center items-center'>
       <div className='w-[800px] py-[50px] px-[20px] text-center bg-white rounded-[10px] shadow-[0_10px_20px_rgba(0,0,0,0.1),0_6px_6px_rgba(0,0,0,0.1)]'>
         <p className='opacity-[.5] text-[1.17em] tracking-[2px] font-bold'>Don't Laugh Challenge</p>
         <p className='max-w-[600px] mx-auto my-[50px] text-[30px] tracking-[1px] leading-[40px] text-center'>

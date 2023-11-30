@@ -10,7 +10,7 @@ const HiddenSearchWidget = () => {
   };
 
   return (
-    <div className='h-full flex items-center justify-center bg-[#725FE9]'>
+    <div className='min-h-full flex items-center justify-center bg-[#725FE9]'>
       <div className={clsx('h-[50px] bg-white flex items-center', showInput ? 'pl-3' : '')}>
         <input
           className={clsx(

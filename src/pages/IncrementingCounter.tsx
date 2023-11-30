@@ -32,7 +32,7 @@ const IncrementingCounter = () => {
   }, []);
 
   return (
-    <div className=' flex items-center justify-center h-full bg-[#8846AA] font-[Roboto,sans-serif]'>
+    <div className=' flex items-center justify-center min-h-full bg-[#8846AA] font-[Roboto,sans-serif]'>
       <div className='flex items-center gap-8'>
         <div className='flex flex-col items-center text-white'>
           <FontAwesomeIcon

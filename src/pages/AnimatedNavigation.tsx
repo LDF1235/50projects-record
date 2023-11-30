@@ -39,7 +39,7 @@ const AnimatedNavigation = () => {
   return (
     <div
       className={clsx(
-        'h-full flex justify-center items-center font-[Muli,sans-serif] ',
+        'min-h-full flex justify-center items-center font-[Muli,sans-serif] ',
         'bg-gradient-to-b from-[#eafbff] from-0% from-[#eafbff] from-50% to-[#5290f9] to-50% to-[#5290f9] to-100%',
       )}
     >

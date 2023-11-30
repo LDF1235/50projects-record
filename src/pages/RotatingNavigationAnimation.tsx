@@ -1,3 +1,4 @@
+import { faEnvelope, faHome, faUserAlt } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import clsx from 'clsx';
 import { useState } from 'react';
@@ -38,7 +39,7 @@ const RotatingNavigationAnimation = () => {
 
       <div
         className={clsx(
-          'h-full bg-white transition-transform duration-[600ms] ease-linear z-0 origin-top-left pt-[100px]',
+          'h-full bg-white transition-transform duration-[600ms] ease-linear z-0 origin-top-left pt-[100px] pb-5 overflow-auto',
           isRotate ? '-rotate-[20deg]' : '',
         )}
       >
@@ -82,19 +83,19 @@ const RotatingNavigationAnimation = () => {
       >
         <ul className='list-none'>
           <li className={clsx('mt-10 ml-0 transition-[margin-left] duration-[600ms] ease-linear')}>
-            <FontAwesomeIcon icon='home' />
+            <FontAwesomeIcon icon={faHome} />
             <span className='ml-2'>HOME</span>
           </li>
           <li
             className={clsx('mt-10 transition-[margin-left] duration-[600ms] ease-linear', isRotate ? 'ml-5' : 'ml-0')}
           >
-            <FontAwesomeIcon icon='user-alt' />
+            <FontAwesomeIcon icon={faUserAlt} />
             <span className='ml-2'>ABOUT</span>
           </li>
           <li
             className={clsx('mt-10 transition-[margin-left] duration-[600ms] ease-linear', isRotate ? 'ml-10' : 'ml-0')}
           >
-            <FontAwesomeIcon icon='envelope' />
+            <FontAwesomeIcon icon={faEnvelope} />
             <span className='ml-2'>CONTACT</span>
           </li>
         </ul>

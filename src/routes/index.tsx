@@ -92,6 +92,10 @@ const routes: RouteObject[] = [
     element: lazyLoadPage('ThemeClock'),
   },
   {
+    path: '/button-ripple-effect',
+    element: lazyLoadPage('ButtonRippleEffect'),
+  },
+  {
     path: '*',
     element: lazyLoadPage('Home'),
   },

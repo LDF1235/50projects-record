@@ -11,6 +11,7 @@ import movieAppPng from '../assets/home/17-movie-app.png';
 import backgroundSliderPng from '../assets/home/18-background-slider.png';
 import themeClockPng from '../assets/home/19-theme-clock.png';
 import progressStepsPng from '../assets/home/2-progress-steps.png';
+import buttonRippleEffectPng from '../assets/home/20-button-ripple-effect.png';
 import rotatingNavigationAnimationPng from '../assets/home/3-rotating-navigation-animation.png';
 import hiddenSearchWidgetPng from '../assets/home/4-hidden-search-widget.png';
 import blurryLoadingPng from '../assets/home/5-blurry-loading.png';
@@ -154,6 +155,12 @@ const cards = [
     coverUrl: themeClockPng,
     title: 'Theme Clock',
     linkTo: '/theme-clock',
+  },
+  {
+    coverAlt: 'button-ripple-effect',
+    coverUrl: buttonRippleEffectPng,
+    title: 'Button Ripple Effect',
+    linkTo: '/button-ripple-effect',
   },
 ];
 

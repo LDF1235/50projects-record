@@ -7,6 +7,9 @@ import randomChoicePickerPng from '../assets/home/13-random-choice-picker.png';
 import animatedNavigationPng from '../assets/home/14-animated-navigation.png';
 import incrementingCounterPng from '../assets/home/15-incrementing-counter.png';
 import drinkWaterPng from '../assets/home/16-drink-water.png';
+import movieAppPng from '../assets/home/17-movie-app.png';
+import backgroundSliderPng from '../assets/home/18-background-slider.png';
+import themeClockPng from '../assets/home/19-theme-clock.png';
 import progressStepsPng from '../assets/home/2-progress-steps.png';
 import rotatingNavigationAnimationPng from '../assets/home/3-rotating-navigation-animation.png';
 import hiddenSearchWidgetPng from '../assets/home/4-hidden-search-widget.png';
@@ -15,8 +18,6 @@ import scrollAnimationPng from '../assets/home/6-scroll-animation.png';
 import splitLandingPagePng from '../assets/home/7-split-landing-page.png';
 import formWavePng from '../assets/home/8-form-wave.png';
 import soundBoardPng from '../assets/home/9-sound-board.png';
-import movieAppPng from '../assets/home/17-movie-app.png';
-import backgroundSlider from '../assets/home/18-background-slider.png';
 
 const Home = () => {
   return (
@@ -144,9 +145,15 @@ const cards = [
   },
   {
     coverAlt: 'background-slider',
-    coverUrl: backgroundSlider,
+    coverUrl: backgroundSliderPng,
     title: 'Background Slider',
     linkTo: '/background-slider',
+  },
+  {
+    coverAlt: 'theme-clock',
+    coverUrl: themeClockPng,
+    title: 'Theme Clock',
+    linkTo: '/theme-clock',
   },
 ];
 

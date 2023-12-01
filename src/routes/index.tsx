@@ -88,6 +88,10 @@ const routes: RouteObject[] = [
     element: lazyLoadPage('BackgroundSlider'),
   },
   {
+    path: '/theme-clock',
+    element: lazyLoadPage('ThemeClock'),
+  },
+  {
     path: '*',
     element: lazyLoadPage('Home'),
   },

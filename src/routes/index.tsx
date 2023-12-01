@@ -84,6 +84,10 @@ const routes: RouteObject[] = [
     element: lazyLoadPage('MovieApp'),
   },
   {
+    path: '/background-slider',
+    element: lazyLoadPage('BackgroundSlider'),
+  },
+  {
     path: '*',
     element: lazyLoadPage('Home'),
   },

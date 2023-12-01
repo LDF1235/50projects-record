@@ -16,6 +16,7 @@ import splitLandingPagePng from '../assets/home/7-split-landing-page.png';
 import formWavePng from '../assets/home/8-form-wave.png';
 import soundBoardPng from '../assets/home/9-sound-board.png';
 import movieAppPng from '../assets/home/17-movie-app.png';
+import backgroundSlider from '../assets/home/18-background-slider.png';
 
 const Home = () => {
   return (
@@ -140,6 +141,12 @@ const cards = [
     coverUrl: movieAppPng,
     title: 'Movie App',
     linkTo: '/movie-app',
+  },
+  {
+    coverAlt: 'background-slider',
+    coverUrl: backgroundSlider,
+    title: 'Background Slider',
+    linkTo: '/background-slider',
   },
 ];
 

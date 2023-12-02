@@ -12,6 +12,9 @@ import backgroundSliderPng from '../assets/home/18-background-slider.png';
 import themeClockPng from '../assets/home/19-theme-clock.png';
 import progressStepsPng from '../assets/home/2-progress-steps.png';
 import buttonRippleEffectPng from '../assets/home/20-button-ripple-effect.png';
+import dragAndDropPng from '../assets/home/21-drag-n-drop.png';
+import drawingAppPng from '../assets/home/22-drawing-app.png';
+import kineticLoaderPng from '../assets/home/23-kinetic-loader.png';
 import rotatingNavigationAnimationPng from '../assets/home/3-rotating-navigation-animation.png';
 import hiddenSearchWidgetPng from '../assets/home/4-hidden-search-widget.png';
 import blurryLoadingPng from '../assets/home/5-blurry-loading.png';
@@ -19,8 +22,6 @@ import scrollAnimationPng from '../assets/home/6-scroll-animation.png';
 import splitLandingPagePng from '../assets/home/7-split-landing-page.png';
 import formWavePng from '../assets/home/8-form-wave.png';
 import soundBoardPng from '../assets/home/9-sound-board.png';
-import dragAndDropPng from '../assets/home/21-drag-n-drop.png';
-import drawingAppPng from '../assets/home/22-drawing-app.png';
 
 const Home = () => {
   return (
@@ -175,6 +176,12 @@ const cards = [
     coverUrl: drawingAppPng,
     title: 'Drawing App',
     linkTo: '/drawing-app',
+  },
+  {
+    coverAlt: 'kinetic-loader',
+    coverUrl: kineticLoaderPng,
+    title: 'Kinetic Loader',
+    linkTo: '/kinetic-loader',
   },
 ];
 

@@ -104,6 +104,10 @@ const routes: RouteObject[] = [
     element: lazyLoadPage('DrawingApp'),
   },
   {
+    path: '/kinetic-loader',
+    element: lazyLoadPage('KineticLoader'),
+  },
+  {
     path: '*',
     element: lazyLoadPage('Home'),
   },

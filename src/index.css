@@ -32,3 +32,35 @@
     animation: skeleton-loading 3s ease infinite;
   }
 }
+
+@keyframes kinetic-loader-b {
+  0%,
+  25% {
+    transform: rotateZ(90deg);
+  }
+
+  50%,
+  75% {
+    transform: rotateZ(270deg);
+  }
+
+  100% {
+    transform: rotateZ(450deg);
+  }
+}
+
+@keyframes kinetic-loader-a {
+  0%,
+  25% {
+    transform: rotateZ(0);
+  }
+
+  50%,
+  75% {
+    transform: rotateZ(180deg);
+  }
+
+  100% {
+    transform: rotateZ(360deg);
+  }
+}

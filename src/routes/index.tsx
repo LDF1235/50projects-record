@@ -108,6 +108,10 @@ const routes: RouteObject[] = [
     element: lazyLoadPage('KineticLoader'),
   },
   {
+    path:'/content-placeholder',
+    element:lazyLoadPage('ContentPlaceholder'),
+  },
+  {
     path: '*',
     element: lazyLoadPage('Home'),
   },

@@ -22,6 +22,7 @@ import scrollAnimationPng from '../assets/home/6-scroll-animation.png';
 import splitLandingPagePng from '../assets/home/7-split-landing-page.png';
 import formWavePng from '../assets/home/8-form-wave.png';
 import soundBoardPng from '../assets/home/9-sound-board.png';
+import contentPlaceholderPng from '../assets/home/24-content-placeholder.png';
 
 const Home = () => {
   return (
@@ -182,6 +183,12 @@ const cards = [
     coverUrl: kineticLoaderPng,
     title: 'Kinetic Loader',
     linkTo: '/kinetic-loader',
+  },
+  {
+    coverAlt: 'content-placeholder',
+    coverUrl: contentPlaceholderPng,
+    title: 'Content Placeholder',
+    linkTo: '/content-placeholder',
   },
 ];
 

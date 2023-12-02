@@ -20,6 +20,7 @@ import splitLandingPagePng from '../assets/home/7-split-landing-page.png';
 import formWavePng from '../assets/home/8-form-wave.png';
 import soundBoardPng from '../assets/home/9-sound-board.png';
 import dragAndDropPng from '../assets/home/21-drag-n-drop.png';
+import drawingAppPng from '../assets/home/22-drawing-app.png';
 
 const Home = () => {
   return (
@@ -168,6 +169,12 @@ const cards = [
     coverUrl: dragAndDropPng,
     title: 'Drag N Drop',
     linkTo: '/drag-and-drop',
+  },
+  {
+    coverAlt: 'drawing-app',
+    coverUrl: drawingAppPng,
+    title: 'Drawing App',
+    linkTo: '/drawing-app',
   },
 ];
 

@@ -100,6 +100,10 @@ const routes: RouteObject[] = [
     element: lazyLoadPage('DragAndDrop'),
   },
   {
+    path: '/drawing-app',
+    element: lazyLoadPage('DrawingApp'),
+  },
+  {
     path: '*',
     element: lazyLoadPage('Home'),
   },

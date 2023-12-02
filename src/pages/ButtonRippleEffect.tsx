@@ -10,7 +10,7 @@ const ButtonRippleEffect = () => {
     const wrapper = document.createElement('div');
     const div = document.createElement('div');
     wrapper.append(div);
-    target.append(wrapper);
+    document.body.append(wrapper);
     Object.assign(wrapper.style, {
       position: 'fixed',
       left: nativeEvent.clientX - nativeEvent.offsetX + 'px',
@@ -30,7 +30,7 @@ const ButtonRippleEffect = () => {
       backgroundColor: '#fff',
       borderRadius: '50%',
       pointerEvents: 'none',
-      opacity: 0.2,
+      opacity: 0.4,
     });
     div.offsetHeight;
     const scale =

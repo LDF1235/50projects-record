@@ -19,6 +19,7 @@ import scrollAnimationPng from '../assets/home/6-scroll-animation.png';
 import splitLandingPagePng from '../assets/home/7-split-landing-page.png';
 import formWavePng from '../assets/home/8-form-wave.png';
 import soundBoardPng from '../assets/home/9-sound-board.png';
+import dragAndDropPng from '../assets/home/21-drag-n-drop.png';
 
 const Home = () => {
   return (
@@ -161,6 +162,12 @@ const cards = [
     coverUrl: buttonRippleEffectPng,
     title: 'Button Ripple Effect',
     linkTo: '/button-ripple-effect',
+  },
+  {
+    coverAlt: 'drag-and-drop',
+    coverUrl: dragAndDropPng,
+    title: 'Drag N Drop',
+    linkTo: '/drag-and-drop',
   },
 ];
 

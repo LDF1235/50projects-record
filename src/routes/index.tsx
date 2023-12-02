@@ -96,6 +96,10 @@ const routes: RouteObject[] = [
     element: lazyLoadPage('ButtonRippleEffect'),
   },
   {
+    path: '/drag-and-drop',
+    element: lazyLoadPage('DragAndDrop'),
+  },
+  {
     path: '*',
     element: lazyLoadPage('Home'),
   },

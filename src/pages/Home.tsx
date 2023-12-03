@@ -26,6 +26,7 @@ import formWavePng from '../assets/home/8-form-wave.png';
 import soundBoardPng from '../assets/home/9-sound-board.png';
 import doubleVerticalSliderPng from '../assets/home/26-double-vertical-slider.png';
 import toastNotificationPng from '../assets/home/27-toast-notification.png';
+import githubProfilesPng from '../assets/home/28-github-profiles.png';
 
 const Home = () => {
   return (
@@ -210,6 +211,12 @@ const cards = [
     coverUrl: toastNotificationPng,
     title: 'Toast Notification',
     linkTo: '/toast-notification',
+  },
+  {
+    coverAlt: 'github-profiles',
+    coverUrl: githubProfilesPng,
+    title: 'Github Profiles',
+    linkTo: '/github-profiles',
   },
 ];
 

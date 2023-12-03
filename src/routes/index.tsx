@@ -124,6 +124,10 @@ const routes: RouteObject[] = [
     element:lazyLoadPage('ToastNotification'),
   },
   {
+    path:'/github-profiles',
+    element:lazyLoadPage('GithubProfiles'),
+  },
+  {
     path: '*',
     element: lazyLoadPage('Home'),
   },

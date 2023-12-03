@@ -120,6 +120,10 @@ const routes: RouteObject[] = [
     element:lazyLoadPage('DoubleVerticalSlider'),
   },
   {
+    path:'/toast-notification',
+    element:lazyLoadPage('ToastNotification'),
+  },
+  {
     path: '*',
     element: lazyLoadPage('Home'),
   },

@@ -25,6 +25,7 @@ import splitLandingPagePng from '../assets/home/7-split-landing-page.png';
 import formWavePng from '../assets/home/8-form-wave.png';
 import soundBoardPng from '../assets/home/9-sound-board.png';
 import doubleVerticalSliderPng from '../assets/home/26-double-vertical-slider.png';
+import toastNotificationPng from '../assets/home/27-toast-notification.png';
 
 const Home = () => {
   return (
@@ -203,6 +204,12 @@ const cards = [
     coverUrl: doubleVerticalSliderPng,
     title: 'Double Vertical Slider',
     linkTo: '/double-vertical-slider',
+  },
+  {
+    coverAlt: 'toast-notification',
+    coverUrl: toastNotificationPng,
+    title: 'Toast Notification',
+    linkTo: '/toast-notification',
   },
 ];
 

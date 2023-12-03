@@ -112,6 +112,10 @@ const routes: RouteObject[] = [
     element:lazyLoadPage('ContentPlaceholder'),
   },
   {
+    path:'/sticky-nav-bar',
+    element:lazyLoadPage('StickyNavBar'),
+  },
+  {
     path: '*',
     element: lazyLoadPage('Home'),
   },

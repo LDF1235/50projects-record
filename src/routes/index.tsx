@@ -116,6 +116,10 @@ const routes: RouteObject[] = [
     element:lazyLoadPage('StickyNavBar'),
   },
   {
+    path:'/double-vertical-slider',
+    element:lazyLoadPage('DoubleVerticalSlider'),
+  },
+  {
     path: '*',
     element: lazyLoadPage('Home'),
   },

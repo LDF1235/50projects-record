@@ -1,17 +1,4 @@
 const FormWave = () => {
-  const handleLoginBtnClick = (e: React.MouseEvent<HTMLButtonElement, MouseEvent>) => {
-    const target = e.target;
-
-    if (!(target instanceof HTMLButtonElement)) return;
-
-    target.classList.add('scale-[.96]');
-    const handleMouseUp = () => {
-      target.classList.remove('scale-[.96]');
-      document.removeEventListener('mouseup', handleMouseUp);
-    };
-    document.addEventListener('mouseup', handleMouseUp);
-  };
-
   const handleInputFocus = (e: React.FocusEvent<HTMLInputElement, Element>) => {
     const target = e.target;
 
@@ -69,8 +56,7 @@ const FormWave = () => {
           </div>
 
           <button
-            onMouseDown={handleLoginBtnClick}
-            className='w-full bg-[#add8e6] p-[15px] border-none rounded-[5px]'
+            className='w-full bg-[#add8e6] p-[15px] border-none rounded-[5px] active:scale-[.96]'
           >
             Login
           </button>

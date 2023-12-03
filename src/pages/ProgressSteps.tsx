@@ -1,23 +1,10 @@
 import clsx from 'clsx';
-import React, { useState } from 'react';
+import { useState } from 'react';
 
 const steps = [1, 2, 3, 4];
 
 const ProgressSteps = () => {
   const [curStep, setCurStep] = useState(0);
-
-  const handleBtnMouseDown = (e: React.MouseEvent<HTMLButtonElement, MouseEvent>) => {
-    const target = e.target;
-
-    if (!(target instanceof HTMLButtonElement)) return;
-
-    const mouseupHandler = () => {
-      target.classList.remove('scale-[.97]');
-      document.removeEventListener('mouseup', mouseupHandler);
-    };
-    target.classList.add('scale-[.97]');
-    document.addEventListener('mouseup', mouseupHandler);
-  };
 
   return (
     <div className='flex items-center justify-center min-h-full bg-[#f6f7fb]'>
@@ -51,12 +38,11 @@ const ProgressSteps = () => {
 
         <div className='mt-12'>
           <button
-            onMouseDown={handleBtnMouseDown}
             disabled={curStep <= 0}
             onClick={() => {
               setCurStep(x => (x - 1 < 0 ? 0 : x - 1));
             }}
-            className='disabled:bg-[#e0e0e0] disabled:cursor-not-allowed py-2 px-[30px] bg-[#479ad9] border-none rounded-md text-white cursor-pointer'
+            className=' active:scale-[.97] disabled:scale-100 disabled:bg-[#e0e0e0] disabled:cursor-not-allowed py-2 px-[30px] bg-[#479ad9] border-none rounded-md text-white cursor-pointer'
           >
             Prev
           </button>
@@ -65,8 +51,7 @@ const ProgressSteps = () => {
               setCurStep(x => (x + 1 > 3 ? 3 : x + 1));
             }}
             disabled={curStep >= 3}
-            onMouseDown={handleBtnMouseDown}
-            className='ml-3 disabled:bg-[#e0e0e0] disabled:cursor-not-allowed py-2 px-[30px] bg-[#479ad9] border-none rounded-md text-white cursor-pointer'
+            className='active:scale-[.97] disabled:scale-100 ml-3 disabled:bg-[#e0e0e0] disabled:cursor-not-allowed py-2 px-[30px] bg-[#479ad9] border-none rounded-md text-white cursor-pointer'
           >
             Next
           </button>

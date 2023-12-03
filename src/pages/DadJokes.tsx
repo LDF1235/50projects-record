@@ -31,21 +31,6 @@ const DadJokes = () => {
     });
   };
 
-  const handleJokeBtnMouseDown = (e: React.MouseEvent<HTMLButtonElement, MouseEvent>) => {
-    const target = e.target;
-
-    if (!(target instanceof HTMLElement)) return;
-
-    target.classList.add('scale-[.95]');
-
-    const handleMouseup = () => {
-      target.classList.remove('scale-[.95]');
-      document.removeEventListener('mouseup', handleMouseup);
-    };
-
-    document.addEventListener('mouseup', handleMouseup);
-  };
-
   return (
     <div className='min-h-full bg-[#686de0] flex justify-center items-center'>
       <div className='w-[800px] py-[50px] px-[20px] text-center bg-white rounded-[10px] shadow-[0_10px_20px_rgba(0,0,0,0.1),0_6px_6px_rgba(0,0,0,0.1)]'>
@@ -55,9 +40,8 @@ const DadJokes = () => {
         </p>
 
         <button
-          onMouseDown={handleJokeBtnMouseDown}
           onClick={handleFetchJoke}
-          className='mx-auto leading-none py-[14px] px-[40px] bg-[#9f68e0] text-white rounded-[10px] shadow-[0_5px_15px_rgba(0,0,0,0.1),0_6px_6px_rgba(0,0,0,0.1)]'
+          className=' active:scale-[.95] mx-auto leading-none py-[14px] px-[40px] bg-[#9f68e0] text-white rounded-[10px] shadow-[0_5px_15px_rgba(0,0,0,0.1),0_6px_6px_rgba(0,0,0,0.1)]'
         >
           {isFetchJoke ? 'Get Another Joke...' : 'Get Another Joke'}
         </button>

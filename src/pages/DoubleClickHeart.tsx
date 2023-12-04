@@ -17,6 +17,7 @@ const DoubleClickHeart = () => {
       return;
     }
 
+    lastTimeStamp = 0;
     const heart = hearRef.current;
     const wrapper = wrapperRef.current;
 

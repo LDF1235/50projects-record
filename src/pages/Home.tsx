@@ -28,6 +28,7 @@ import doubleVerticalSliderPng from '../assets/home/26-double-vertical-slider.pn
 import toastNotificationPng from '../assets/home/27-toast-notification.png';
 import githubProfilesPng from '../assets/home/28-github-profiles.png';
 import doubleClickHeartPng from '../assets/home/29-double-click-heart.png';
+import autoTextEffectPng from '../assets/home/30-auto-text-effect.png';
 
 const Home = () => {
   return (
@@ -224,6 +225,12 @@ const cards = [
     coverUrl: doubleClickHeartPng,
     title: 'Double Click Heart',
     linkTo: '/double-click-heart',
+  },
+  {
+    coverAlt: 'auto-text-effect',
+    coverUrl: autoTextEffectPng,
+    title: 'Auto Text Effect',
+    linkTo: '/auto-text-effect',
   },
 ];
 

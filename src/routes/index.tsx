@@ -132,6 +132,10 @@ const routes: RouteObject[] = [
     element: lazyLoadPage('DoubleClickHeart'),
   },
   {
+    path: '/auto-text-effect',
+    element: lazyLoadPage('AutoTextEffect'),
+  },
+  {
     path: '*',
     element: lazyLoadPage('Home'),
   },

@@ -27,6 +27,7 @@ import soundBoardPng from '../assets/home/9-sound-board.png';
 import doubleVerticalSliderPng from '../assets/home/26-double-vertical-slider.png';
 import toastNotificationPng from '../assets/home/27-toast-notification.png';
 import githubProfilesPng from '../assets/home/28-github-profiles.png';
+import doubleClickHeartPng from '../assets/home/29-double-click-heart.png';
 
 const Home = () => {
   return (
@@ -217,6 +218,12 @@ const cards = [
     coverUrl: githubProfilesPng,
     title: 'Github Profiles',
     linkTo: '/github-profiles',
+  },
+  {
+    coverAlt: 'double-click-heart',
+    coverUrl: doubleClickHeartPng,
+    title: 'Double Click Heart',
+    linkTo: '/double-click-heart',
   },
 ];
 

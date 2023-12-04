@@ -108,24 +108,28 @@ const routes: RouteObject[] = [
     element: lazyLoadPage('KineticLoader'),
   },
   {
-    path:'/content-placeholder',
-    element:lazyLoadPage('ContentPlaceholder'),
+    path: '/content-placeholder',
+    element: lazyLoadPage('ContentPlaceholder'),
   },
   {
-    path:'/sticky-nav-bar',
-    element:lazyLoadPage('StickyNavBar'),
+    path: '/sticky-nav-bar',
+    element: lazyLoadPage('StickyNavBar'),
   },
   {
-    path:'/double-vertical-slider',
-    element:lazyLoadPage('DoubleVerticalSlider'),
+    path: '/double-vertical-slider',
+    element: lazyLoadPage('DoubleVerticalSlider'),
   },
   {
-    path:'/toast-notification',
-    element:lazyLoadPage('ToastNotification'),
+    path: '/toast-notification',
+    element: lazyLoadPage('ToastNotification'),
   },
   {
-    path:'/github-profiles',
-    element:lazyLoadPage('GithubProfiles'),
+    path: '/github-profiles',
+    element: lazyLoadPage('GithubProfiles'),
+  },
+  {
+    path: '/double-click-heart',
+    element: lazyLoadPage('DoubleClickHeart'),
   },
   {
     path: '*',

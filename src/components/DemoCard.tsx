@@ -23,6 +23,7 @@ const DemoCard = (props: Props) => {
         onLoad={() => {
           setCoverLoadOk(true);
         }}
+        loading="lazy"
       />
 
       <div className='flex items-center justify-center flex-col w-full h-full absolute left-0 top-0 z-[1] cursor-pointer opacity-0 hover:opacity-100 transition-[opacity] duration-300 ease-in bg-[#9901ff]'>

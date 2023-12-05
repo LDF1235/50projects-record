@@ -144,6 +144,10 @@ const routes: RouteObject[] = [
     element: lazyLoadPage('GoodCheapFast'),
   },
   {
+    path: '/notes-app',
+    element: lazyLoadPage('NotesApp'),
+  },
+  {
     path: '*',
     element: lazyLoadPage('Home'),
   },

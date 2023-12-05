@@ -17,20 +17,21 @@ import drawingAppPng from '../assets/home/22-drawing-app.png';
 import kineticLoaderPng from '../assets/home/23-kinetic-loader.png';
 import contentPlaceholderPng from '../assets/home/24-content-placeholder.png';
 import stickyNavBarPng from '../assets/home/25-sticky-navbar.png';
+import doubleVerticalSliderPng from '../assets/home/26-double-vertical-slider.png';
+import toastNotificationPng from '../assets/home/27-toast-notification.png';
+import githubProfilesPng from '../assets/home/28-github-profiles.png';
+import doubleClickHeartPng from '../assets/home/29-double-click-heart.png';
 import rotatingNavigationAnimationPng from '../assets/home/3-rotating-navigation-animation.png';
+import autoTextEffectPng from '../assets/home/30-auto-text-effect.png';
+import passwordGeneratorPng from '../assets/home/31-password-generator.png';
+import goodCheapFastPng from '../assets/home/32-good-cheap-fast.png';
+import notesAppPng from '../assets/home/33-notes-app.png';
 import hiddenSearchWidgetPng from '../assets/home/4-hidden-search-widget.png';
 import blurryLoadingPng from '../assets/home/5-blurry-loading.png';
 import scrollAnimationPng from '../assets/home/6-scroll-animation.png';
 import splitLandingPagePng from '../assets/home/7-split-landing-page.png';
 import formWavePng from '../assets/home/8-form-wave.png';
 import soundBoardPng from '../assets/home/9-sound-board.png';
-import doubleVerticalSliderPng from '../assets/home/26-double-vertical-slider.png';
-import toastNotificationPng from '../assets/home/27-toast-notification.png';
-import githubProfilesPng from '../assets/home/28-github-profiles.png';
-import doubleClickHeartPng from '../assets/home/29-double-click-heart.png';
-import autoTextEffectPng from '../assets/home/30-auto-text-effect.png';
-import passwordGeneratorPng from '../assets/home/31-password-generator.png';
-import goodCheapFastPng from '../assets/home/32-good-cheap-fast.png';
 
 const Home = () => {
   return (
@@ -245,6 +246,12 @@ const cards = [
     coverUrl: goodCheapFastPng,
     title: 'Good Cheap Fast',
     linkTo: '/good-cheap-fast',
+  },
+  {
+    coverAlt: 'notes-app',
+    coverUrl: notesAppPng,
+    title: 'Notes App',
+    linkTo: '/notes-app',
   },
 ];
 

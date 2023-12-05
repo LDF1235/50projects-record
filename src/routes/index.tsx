@@ -140,6 +140,10 @@ const routes: RouteObject[] = [
     element: lazyLoadPage('PasswordGenerator'),
   },
   {
+    path: '/good-cheap-fast',
+    element: lazyLoadPage('GoodCheapFast'),
+  },
+  {
     path: '*',
     element: lazyLoadPage('Home'),
   },

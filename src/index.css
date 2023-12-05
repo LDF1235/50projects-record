@@ -71,3 +71,31 @@
     transform: rotateZ(360deg);
   }
 }
+
+@keyframes good-cheap-fast-check {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.2);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes good-cheap-fast-not-check {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.2);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}

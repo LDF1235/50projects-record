@@ -30,6 +30,7 @@ import githubProfilesPng from '../assets/home/28-github-profiles.png';
 import doubleClickHeartPng from '../assets/home/29-double-click-heart.png';
 import autoTextEffectPng from '../assets/home/30-auto-text-effect.png';
 import passwordGeneratorPng from '../assets/home/31-password-generator.png';
+import goodCheapFastPng from '../assets/home/32-good-cheap-fast.png';
 
 const Home = () => {
   return (
@@ -238,6 +239,12 @@ const cards = [
     coverUrl: passwordGeneratorPng,
     title: 'Password Generator',
     linkTo: '/password-generator',
+  },
+  {
+    coverAlt: 'good-cheap-fast',
+    coverUrl: goodCheapFastPng,
+    title: 'Good Cheap Fast',
+    linkTo: '/good-cheap-fast',
   },
 ];
 

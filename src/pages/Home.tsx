@@ -29,6 +29,7 @@ import toastNotificationPng from '../assets/home/27-toast-notification.png';
 import githubProfilesPng from '../assets/home/28-github-profiles.png';
 import doubleClickHeartPng from '../assets/home/29-double-click-heart.png';
 import autoTextEffectPng from '../assets/home/30-auto-text-effect.png';
+import passwordGeneratorPng from '../assets/home/31-password-generator.png';
 
 const Home = () => {
   return (
@@ -231,6 +232,12 @@ const cards = [
     coverUrl: autoTextEffectPng,
     title: 'Auto Text Effect',
     linkTo: '/auto-text-effect',
+  },
+  {
+    coverAlt: 'password-generator',
+    coverUrl: passwordGeneratorPng,
+    title: 'Password Generator',
+    linkTo: '/password-generator',
   },
 ];
 

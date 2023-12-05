@@ -136,6 +136,10 @@ const routes: RouteObject[] = [
     element: lazyLoadPage('AutoTextEffect'),
   },
   {
+    path: '/password-generator',
+    element: lazyLoadPage('PasswordGenerator'),
+  },
+  {
     path: '*',
     element: lazyLoadPage('Home'),
   },

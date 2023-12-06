@@ -156,6 +156,10 @@ const routes: RouteObject[] = [
     element: lazyLoadPage('ImageCarousel'),
   },
   {
+    path: '/hoverboard',
+    element: lazyLoadPage('Hoverboard'),
+  },
+  {
     path: '*',
     element: lazyLoadPage('Home'),
   },

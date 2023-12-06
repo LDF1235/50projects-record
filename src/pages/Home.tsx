@@ -34,6 +34,7 @@ import splitLandingPagePng from '../assets/home/7-split-landing-page.png';
 import formWavePng from '../assets/home/8-form-wave.png';
 import soundBoardPng from '../assets/home/9-sound-board.png';
 import imageCarouselPng from '../assets/home/35-image-carousel.png';
+import hoverBoardPng from '../assets/home/36-hoverboard.png';
 
 const Home = () => {
   return (
@@ -266,6 +267,12 @@ const cards = [
     coverUrl: imageCarouselPng,
     title: 'Image Carousel',
     linkTo: '/image-carousel',
+  },
+  {
+    coverAlt: 'hoverboard',
+    coverUrl: hoverBoardPng,
+    title: 'Hoverboard',
+    linkTo: '/hoverboard',
   },
 ];
 

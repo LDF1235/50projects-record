@@ -99,3 +99,21 @@
     transform: scale(1);
   }
 }
+
+@keyframes animated-countdown {
+  0% {
+    transform: rotateZ(180deg);
+  }
+
+  40% {
+    transform: rotateZ(-20deg);
+  }
+
+  60% {
+    transform: rotateZ(20deg);
+  }
+
+  100% {
+    transform: rotateZ(-180deg);
+  }
+}

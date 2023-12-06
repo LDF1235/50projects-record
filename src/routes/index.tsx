@@ -148,6 +148,10 @@ const routes: RouteObject[] = [
     element: lazyLoadPage('NotesApp'),
   },
   {
+    path: '/animated-countdown',
+    element: lazyLoadPage('AnimatedCountdown'),
+  },
+  {
     path: '*',
     element: lazyLoadPage('Home'),
   },

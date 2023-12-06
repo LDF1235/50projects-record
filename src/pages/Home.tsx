@@ -26,6 +26,7 @@ import autoTextEffectPng from '../assets/home/30-auto-text-effect.png';
 import passwordGeneratorPng from '../assets/home/31-password-generator.png';
 import goodCheapFastPng from '../assets/home/32-good-cheap-fast.png';
 import notesAppPng from '../assets/home/33-notes-app.png';
+import animatedCountdownPng from '../assets/home/34-animated-countdown.png';
 import hiddenSearchWidgetPng from '../assets/home/4-hidden-search-widget.png';
 import blurryLoadingPng from '../assets/home/5-blurry-loading.png';
 import scrollAnimationPng from '../assets/home/6-scroll-animation.png';
@@ -252,6 +253,12 @@ const cards = [
     coverUrl: notesAppPng,
     title: 'Notes App',
     linkTo: '/notes-app',
+  },
+  {
+    coverAlt: 'animated-countdown',
+    coverUrl: animatedCountdownPng,
+    title: 'Animated CountDown',
+    linkTo: '/animated-countdown',
   },
 ];
 

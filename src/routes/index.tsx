@@ -152,6 +152,10 @@ const routes: RouteObject[] = [
     element: lazyLoadPage('AnimatedCountdown'),
   },
   {
+    path: '/image-carousel',
+    element: lazyLoadPage('ImageCarousel'),
+  },
+  {
     path: '*',
     element: lazyLoadPage('Home'),
   },

@@ -33,6 +33,7 @@ import scrollAnimationPng from '../assets/home/6-scroll-animation.png';
 import splitLandingPagePng from '../assets/home/7-split-landing-page.png';
 import formWavePng from '../assets/home/8-form-wave.png';
 import soundBoardPng from '../assets/home/9-sound-board.png';
+import imageCarouselPng from '../assets/home/35-image-carousel.png';
 
 const Home = () => {
   return (
@@ -259,6 +260,12 @@ const cards = [
     coverUrl: animatedCountdownPng,
     title: 'Animated CountDown',
     linkTo: '/animated-countdown',
+  },
+  {
+    coverAlt: 'image-carousel',
+    coverUrl: imageCarouselPng,
+    title: 'Image Carousel',
+    linkTo: '/image-carousel',
   },
 ];
 

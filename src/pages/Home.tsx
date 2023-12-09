@@ -35,6 +35,7 @@ import formWavePng from '../assets/home/8-form-wave.png';
 import soundBoardPng from '../assets/home/9-sound-board.png';
 import imageCarouselPng from '../assets/home/35-image-carousel.png';
 import hoverBoardPng from '../assets/home/36-hoverboard.png';
+import pokedexPng from '../assets/home/37-pokedex.png';
 
 const Home = () => {
   return (
@@ -273,6 +274,11 @@ const cards = [
     coverUrl: hoverBoardPng,
     title: 'Hoverboard',
     linkTo: '/hoverboard',
+  },  {
+    coverAlt: 'pokedex',
+    coverUrl: pokedexPng,
+    title: 'Pokedex',
+    linkTo: '/pokedex',
   },
 ];
 

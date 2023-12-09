@@ -160,6 +160,10 @@ const routes: RouteObject[] = [
     element: lazyLoadPage('Hoverboard'),
   },
   {
+    path: '/pokedex',
+    element: lazyLoadPage('Pokedex'),
+  },
+  {
     path: '*',
     element: lazyLoadPage('Home'),
   },

@@ -164,6 +164,10 @@ const routes: RouteObject[] = [
     element: lazyLoadPage('Pokedex'),
   },
   {
+    path: '/mobile-tab-navigation',
+    element: lazyLoadPage('MobileTabNavigation'),
+  },
+  {
     path: '*',
     element: lazyLoadPage('Home'),
   },

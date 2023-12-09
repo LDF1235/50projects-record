@@ -27,15 +27,16 @@ import passwordGeneratorPng from '../assets/home/31-password-generator.png';
 import goodCheapFastPng from '../assets/home/32-good-cheap-fast.png';
 import notesAppPng from '../assets/home/33-notes-app.png';
 import animatedCountdownPng from '../assets/home/34-animated-countdown.png';
+import imageCarouselPng from '../assets/home/35-image-carousel.png';
+import hoverBoardPng from '../assets/home/36-hoverboard.png';
+import pokedexPng from '../assets/home/37-pokedex.png';
+import mobileTabNavigationPng from '../assets/home/38-mobile-tab-navigation.png';
 import hiddenSearchWidgetPng from '../assets/home/4-hidden-search-widget.png';
 import blurryLoadingPng from '../assets/home/5-blurry-loading.png';
 import scrollAnimationPng from '../assets/home/6-scroll-animation.png';
 import splitLandingPagePng from '../assets/home/7-split-landing-page.png';
 import formWavePng from '../assets/home/8-form-wave.png';
 import soundBoardPng from '../assets/home/9-sound-board.png';
-import imageCarouselPng from '../assets/home/35-image-carousel.png';
-import hoverBoardPng from '../assets/home/36-hoverboard.png';
-import pokedexPng from '../assets/home/37-pokedex.png';
 
 const Home = () => {
   return (
@@ -274,11 +275,18 @@ const cards = [
     coverUrl: hoverBoardPng,
     title: 'Hoverboard',
     linkTo: '/hoverboard',
-  },  {
+  },
+  {
     coverAlt: 'pokedex',
     coverUrl: pokedexPng,
     title: 'Pokedex',
     linkTo: '/pokedex',
+  },
+  {
+    coverAlt: 'mobile-tab-navigation',
+    coverUrl: mobileTabNavigationPng,
+    title: 'Mobile Tab Navigation',
+    linkTo: '/mobile-tab-navigation',
   },
 ];
 

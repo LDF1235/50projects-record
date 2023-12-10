@@ -168,6 +168,10 @@ const routes: RouteObject[] = [
     element: lazyLoadPage('MobileTabNavigation'),
   },
   {
+    path: '/password-strength-background',
+    element: lazyLoadPage('PasswordStrengthBackground'),
+  },
+  {
     path: '*',
     element: lazyLoadPage('Home'),
   },

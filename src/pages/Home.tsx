@@ -31,6 +31,7 @@ import imageCarouselPng from '../assets/home/35-image-carousel.png';
 import hoverBoardPng from '../assets/home/36-hoverboard.png';
 import pokedexPng from '../assets/home/37-pokedex.png';
 import mobileTabNavigationPng from '../assets/home/38-mobile-tab-navigation.png';
+import passwordStrengthBackgroundPng from '../assets/home/39-password-strength-background.png';
 import hiddenSearchWidgetPng from '../assets/home/4-hidden-search-widget.png';
 import blurryLoadingPng from '../assets/home/5-blurry-loading.png';
 import scrollAnimationPng from '../assets/home/6-scroll-animation.png';
@@ -287,6 +288,12 @@ const cards = [
     coverUrl: mobileTabNavigationPng,
     title: 'Mobile Tab Navigation',
     linkTo: '/mobile-tab-navigation',
+  },
+  {
+    coverAlt: 'password-strength-background',
+    coverUrl: passwordStrengthBackgroundPng,
+    title: 'Password Strength Background',
+    linkTo: '/password-strength-background',
   },
 ];
 

@@ -172,6 +172,10 @@ const routes: RouteObject[] = [
     element: lazyLoadPage('PasswordStrengthBackground'),
   },
   {
+    path: '/3d-background-boxes',
+    element: lazyLoadPage('3DBackgroundBoxes'),
+  },
+  {
     path: '*',
     element: lazyLoadPage('Home'),
   },

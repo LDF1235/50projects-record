@@ -1,45 +1,4 @@
 import DemoCard from '@/components/DemoCard';
-import expandingCardsPng from '../assets/home/1-expanding-cards.png';
-import dadJokesPng from '../assets/home/10-dad-jokes.png';
-import eventKeycodesPng from '../assets/home/11-event-keycodes.png';
-import faqCollapsePng from '../assets/home/12-faq-collapse.png';
-import randomChoicePickerPng from '../assets/home/13-random-choice-picker.png';
-import animatedNavigationPng from '../assets/home/14-animated-navigation.png';
-import incrementingCounterPng from '../assets/home/15-incrementing-counter.png';
-import drinkWaterPng from '../assets/home/16-drink-water.png';
-import movieAppPng from '../assets/home/17-movie-app.png';
-import backgroundSliderPng from '../assets/home/18-background-slider.png';
-import themeClockPng from '../assets/home/19-theme-clock.png';
-import progressStepsPng from '../assets/home/2-progress-steps.png';
-import buttonRippleEffectPng from '../assets/home/20-button-ripple-effect.png';
-import dragAndDropPng from '../assets/home/21-drag-n-drop.png';
-import drawingAppPng from '../assets/home/22-drawing-app.png';
-import kineticLoaderPng from '../assets/home/23-kinetic-loader.png';
-import contentPlaceholderPng from '../assets/home/24-content-placeholder.png';
-import stickyNavBarPng from '../assets/home/25-sticky-navbar.png';
-import doubleVerticalSliderPng from '../assets/home/26-double-vertical-slider.png';
-import toastNotificationPng from '../assets/home/27-toast-notification.png';
-import githubProfilesPng from '../assets/home/28-github-profiles.png';
-import doubleClickHeartPng from '../assets/home/29-double-click-heart.png';
-import rotatingNavigationAnimationPng from '../assets/home/3-rotating-navigation-animation.png';
-import autoTextEffectPng from '../assets/home/30-auto-text-effect.png';
-import passwordGeneratorPng from '../assets/home/31-password-generator.png';
-import goodCheapFastPng from '../assets/home/32-good-cheap-fast.png';
-import notesAppPng from '../assets/home/33-notes-app.png';
-import animatedCountdownPng from '../assets/home/34-animated-countdown.png';
-import imageCarouselPng from '../assets/home/35-image-carousel.png';
-import hoverBoardPng from '../assets/home/36-hoverboard.png';
-import pokedexPng from '../assets/home/37-pokedex.png';
-import mobileTabNavigationPng from '../assets/home/38-mobile-tab-navigation.png';
-import passwordStrengthBackgroundPng from '../assets/home/39-password-strength-background.png';
-import hiddenSearchWidgetPng from '../assets/home/4-hidden-search-widget.png';
-import threeDBackgroundBoxesPng from '../assets/home/40-3d-background-boxes.png';
-import verifyAccountUi from '../assets/home/41-verify-account-ui.png';
-import blurryLoadingPng from '../assets/home/5-blurry-loading.png';
-import scrollAnimationPng from '../assets/home/6-scroll-animation.png';
-import splitLandingPagePng from '../assets/home/7-split-landing-page.png';
-import formWavePng from '../assets/home/8-form-wave.png';
-import soundBoardPng from '../assets/home/9-sound-board.png';
 
 const Home = () => {
   return (
@@ -65,247 +24,247 @@ const Home = () => {
 const cards = [
   {
     coverAlt: 'expanding-cards',
-    coverUrl: expandingCardsPng,
+    coverUrl: new URL('../assets/home/1-expanding-cards.png', import.meta.url).href,
     title: 'Expanding Cards',
     linkTo: '/expanding-cards',
   },
   {
     coverAlt: 'progress-steps',
-    coverUrl: progressStepsPng,
+    coverUrl: new URL('../assets/home/2-progress-steps.png', import.meta.url).href,
     title: 'Progress Steps',
     linkTo: '/progress-steps',
   },
   {
     coverAlt: 'rotating-navigation-animation',
-    coverUrl: rotatingNavigationAnimationPng,
+    coverUrl: new URL('../assets/home/3-rotating-navigation-animation.png', import.meta.url).href,
     title: 'Rotating Navigation Animation',
     linkTo: '/rotating-navigation-animation',
   },
   {
     coverAlt: 'hidden-search-widget',
-    coverUrl: hiddenSearchWidgetPng,
+    coverUrl: new URL('../assets/home/4-hidden-search-widget.png', import.meta.url).href,
     title: 'Hidden Search Widget',
     linkTo: '/hidden-search-widget',
   },
   {
     coverAlt: 'blurry-loading',
-    coverUrl: blurryLoadingPng,
+    coverUrl: new URL('../assets/home/5-blurry-loading.png', import.meta.url).href,
     title: 'Blurry Loading',
     linkTo: '/blurry-loading',
   },
   {
     coverAlt: 'scroll-animation',
-    coverUrl: scrollAnimationPng,
+    coverUrl: new URL('../assets/home/6-scroll-animation.png', import.meta.url).href,
     title: 'Scroll Animation',
     linkTo: '/scroll-animation',
   },
   {
     coverAlt: 'split-landing-page',
-    coverUrl: splitLandingPagePng,
+    coverUrl: new URL('../assets/home/7-split-landing-page.png', import.meta.url).href,
     title: 'Split Landing Page',
     linkTo: '/split-landing-page',
   },
   {
     coverAlt: 'form-wave',
-    coverUrl: formWavePng,
+    coverUrl: new URL('../assets/home/8-form-wave.png', import.meta.url).href,
     title: 'Form Wave',
     linkTo: '/form-wave',
   },
   {
     coverAlt: 'sound-board',
-    coverUrl: soundBoardPng,
+    coverUrl: new URL('../assets/home/9-sound-board.png', import.meta.url).href,
     title: 'Sound Board',
     linkTo: '/sound-board',
   },
   {
     coverAlt: 'dad-jokes',
-    coverUrl: dadJokesPng,
+    coverUrl: new URL('../assets/home/10-dad-jokes.png', import.meta.url).href,
     title: 'Dad Jokes',
     linkTo: '/dad-jokes',
   },
   {
     coverAlt: 'event-keycodes',
-    coverUrl: eventKeycodesPng,
+    coverUrl: new URL('../assets/home/11-event-keycodes.png', import.meta.url).href,
     title: 'Event Keycodes',
     linkTo: '/event-keycodes',
   },
   {
     coverAlt: 'faq-collapse',
-    coverUrl: faqCollapsePng,
+    coverUrl: new URL('../assets/home/12-faq-collapse.png', import.meta.url).href,
     title: 'Faq Collapse',
     linkTo: '/faq-collapse',
   },
   {
     coverAlt: 'random-choice-picker',
-    coverUrl: randomChoicePickerPng,
+    coverUrl: new URL('../assets/home/13-random-choice-picker.png', import.meta.url).href,
     title: 'Random Choice Picker',
     linkTo: '/random-choice-picker',
   },
   {
     coverAlt: 'animated-navigation',
-    coverUrl: animatedNavigationPng,
+    coverUrl: new URL('../assets/home/14-animated-navigation.png', import.meta.url).href,
     title: 'Animated Navigation',
     linkTo: '/animated-navigation',
   },
   {
     coverAlt: 'incrementing-counter',
-    coverUrl: incrementingCounterPng,
+    coverUrl: new URL('../assets/home/15-incrementing-counter.png', import.meta.url).href,
     title: 'Incrementing Counter',
     linkTo: '/incrementing-counter',
   },
   {
     coverAlt: 'drink-water',
-    coverUrl: drinkWaterPng,
+    coverUrl: new URL('../assets/home/16-drink-water.png', import.meta.url).href,
     title: 'Drink Water',
     linkTo: '/drink-water',
   },
   {
     coverAlt: 'movie-app',
-    coverUrl: movieAppPng,
+    coverUrl: new URL('../assets/home/17-movie-app.png', import.meta.url).href,
     title: 'Movie App',
     linkTo: '/movie-app',
   },
   {
     coverAlt: 'background-slider',
-    coverUrl: backgroundSliderPng,
+    coverUrl: new URL('../assets/home/18-background-slider.png', import.meta.url).href,
     title: 'Background Slider',
     linkTo: '/background-slider',
   },
   {
     coverAlt: 'theme-clock',
-    coverUrl: themeClockPng,
+    coverUrl: new URL('../assets/home/19-theme-clock.png', import.meta.url).href,
     title: 'Theme Clock',
     linkTo: '/theme-clock',
   },
   {
     coverAlt: 'button-ripple-effect',
-    coverUrl: buttonRippleEffectPng,
+    coverUrl: new URL('../assets/home/20-button-ripple-effect.png', import.meta.url).href,
     title: 'Button Ripple Effect',
     linkTo: '/button-ripple-effect',
   },
   {
     coverAlt: 'drag-and-drop',
-    coverUrl: dragAndDropPng,
+    coverUrl: new URL('../assets/home/21-drag-n-drop.png', import.meta.url).href,
     title: 'Drag N Drop',
     linkTo: '/drag-and-drop',
   },
   {
     coverAlt: 'drawing-app',
-    coverUrl: drawingAppPng,
+    coverUrl: new URL('../assets/home/22-drawing-app.png', import.meta.url).href,
     title: 'Drawing App',
     linkTo: '/drawing-app',
   },
   {
     coverAlt: 'kinetic-loader',
-    coverUrl: kineticLoaderPng,
+    coverUrl: new URL('../assets/home/23-kinetic-loader.png', import.meta.url).href,
     title: 'Kinetic Loader',
     linkTo: '/kinetic-loader',
   },
   {
     coverAlt: 'content-placeholder',
-    coverUrl: contentPlaceholderPng,
+    coverUrl: new URL('../assets/home/24-content-placeholder.png', import.meta.url).href,
     title: 'Content Placeholder',
     linkTo: '/content-placeholder',
   },
   {
     coverAlt: 'sticky-nav-bar',
-    coverUrl: stickyNavBarPng,
+    coverUrl: new URL('../assets/home/25-sticky-navbar.png', import.meta.url).href,
     title: 'Sticky Nav Bar',
     linkTo: '/sticky-nav-bar',
   },
   {
     coverAlt: 'double-vertical-slider',
-    coverUrl: doubleVerticalSliderPng,
+    coverUrl: new URL('../assets/home/26-double-vertical-slider.png', import.meta.url).href,
     title: 'Double Vertical Slider',
     linkTo: '/double-vertical-slider',
   },
   {
     coverAlt: 'toast-notification',
-    coverUrl: toastNotificationPng,
+    coverUrl: new URL('../assets/home/27-toast-notification.png', import.meta.url).href,
     title: 'Toast Notification',
     linkTo: '/toast-notification',
   },
   {
     coverAlt: 'github-profiles',
-    coverUrl: githubProfilesPng,
+    coverUrl: new URL('../assets/home/28-github-profiles.png', import.meta.url).href,
     title: 'Github Profiles',
     linkTo: '/github-profiles',
   },
   {
     coverAlt: 'double-click-heart',
-    coverUrl: doubleClickHeartPng,
+    coverUrl: new URL('../assets/home/29-double-click-heart.png', import.meta.url).href,
     title: 'Double Click Heart',
     linkTo: '/double-click-heart',
   },
   {
     coverAlt: 'auto-text-effect',
-    coverUrl: autoTextEffectPng,
+    coverUrl: new URL('../assets/home/30-auto-text-effect.png', import.meta.url).href,
     title: 'Auto Text Effect',
     linkTo: '/auto-text-effect',
   },
   {
     coverAlt: 'password-generator',
-    coverUrl: passwordGeneratorPng,
+    coverUrl: new URL('../assets/home/31-password-generator.png', import.meta.url).href,
     title: 'Password Generator',
     linkTo: '/password-generator',
   },
   {
     coverAlt: 'good-cheap-fast',
-    coverUrl: goodCheapFastPng,
+    coverUrl: new URL('../assets/home/32-good-cheap-fast.png', import.meta.url).href,
     title: 'Good Cheap Fast',
     linkTo: '/good-cheap-fast',
   },
   {
     coverAlt: 'notes-app',
-    coverUrl: notesAppPng,
+    coverUrl: new URL('../assets/home/33-notes-app.png', import.meta.url).href,
     title: 'Notes App',
     linkTo: '/notes-app',
   },
   {
     coverAlt: 'animated-countdown',
-    coverUrl: animatedCountdownPng,
+    coverUrl: new URL('../assets/home/34-animated-countdown.png', import.meta.url).href,
     title: 'Animated CountDown',
     linkTo: '/animated-countdown',
   },
   {
     coverAlt: 'image-carousel',
-    coverUrl: imageCarouselPng,
+    coverUrl: new URL('../assets/home/35-image-carousel.png', import.meta.url).href,
     title: 'Image Carousel',
     linkTo: '/image-carousel',
   },
   {
     coverAlt: 'hoverboard',
-    coverUrl: hoverBoardPng,
+    coverUrl: new URL('../assets/home/36-hoverboard.png', import.meta.url).href,
     title: 'Hoverboard',
     linkTo: '/hoverboard',
   },
   {
     coverAlt: 'pokedex',
-    coverUrl: pokedexPng,
+    coverUrl: new URL('../assets/home/37-pokedex.png', import.meta.url).href,
     title: 'Pokedex',
     linkTo: '/pokedex',
   },
   {
     coverAlt: 'mobile-tab-navigation',
-    coverUrl: mobileTabNavigationPng,
+    coverUrl: new URL('../assets/home/38-mobile-tab-navigation.png', import.meta.url).href,
     title: 'Mobile Tab Navigation',
     linkTo: '/mobile-tab-navigation',
   },
   {
     coverAlt: 'password-strength-background',
-    coverUrl: passwordStrengthBackgroundPng,
+    coverUrl: new URL('../assets/home/39-password-strength-background.png', import.meta.url).href,
     title: 'Password Strength Background',
     linkTo: '/password-strength-background',
   },
   {
     coverAlt: '3d-background-boxes',
-    coverUrl: threeDBackgroundBoxesPng,
+    coverUrl: new URL('../assets/home/40-3d-background-boxes.png', import.meta.url).href,
     title: '3D Background Boxes',
     linkTo: '/3d-background-boxes',
   },
   {
     coverAlt: 'verify-account-ui',
-    coverUrl: verifyAccountUi,
+    coverUrl: new URL('../assets/home/41-verify-account-ui.png', import.meta.url).href,
     title: 'Verify Account UI',
     linkTo: '/verify-account-ui',
   },

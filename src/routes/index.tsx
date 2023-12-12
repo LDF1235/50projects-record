@@ -196,6 +196,10 @@ const routes: RouteObject[] = [
     element: lazyLoadPage('NetflixMobileNavigation'),
   },
   {
+    path: '/quiz-app',
+    element: lazyLoadPage('QuizApp'),
+  },
+  {
     path: '*',
     element: lazyLoadPage('Home'),
   },

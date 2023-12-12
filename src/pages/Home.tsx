@@ -291,6 +291,12 @@ const cards = [
     title: 'Netflix Mobile Navigation',
     linkTo: '/netflix-mobile-navigation',
   },
+  {
+    coverAlt: 'quiz-app',
+    coverUrl: new URL('../assets/home/46-quiz-app.png', import.meta.url).href,
+    title: 'Quiz App',
+    linkTo: '/quiz-app',
+  },
 ];
 
 export default Home;

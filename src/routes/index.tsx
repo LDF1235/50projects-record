@@ -176,6 +176,10 @@ const routes: RouteObject[] = [
     element: lazyLoadPage('3DBackgroundBoxes'),
   },
   {
+    path: '/verify-account-ui',
+    element: lazyLoadPage('VerifyAccountUi'),
+  },
+  {
     path: '*',
     element: lazyLoadPage('Home'),
   },

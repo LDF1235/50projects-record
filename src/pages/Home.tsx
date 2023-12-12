@@ -34,6 +34,7 @@ import mobileTabNavigationPng from '../assets/home/38-mobile-tab-navigation.png'
 import passwordStrengthBackgroundPng from '../assets/home/39-password-strength-background.png';
 import hiddenSearchWidgetPng from '../assets/home/4-hidden-search-widget.png';
 import threeDBackgroundBoxesPng from '../assets/home/40-3d-background-boxes.png';
+import verifyAccountUi from '../assets/home/41-verify-account-ui.png';
 import blurryLoadingPng from '../assets/home/5-blurry-loading.png';
 import scrollAnimationPng from '../assets/home/6-scroll-animation.png';
 import splitLandingPagePng from '../assets/home/7-split-landing-page.png';
@@ -301,6 +302,12 @@ const cards = [
     coverUrl: threeDBackgroundBoxesPng,
     title: '3D Background Boxes',
     linkTo: '/3d-background-boxes',
+  },
+  {
+    coverAlt: 'verify-account-ui',
+    coverUrl: verifyAccountUi,
+    title: 'Verify Account UI',
+    linkTo: '/verify-account-ui',
   },
 ];
 

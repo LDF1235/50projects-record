@@ -303,6 +303,12 @@ const cards = [
     title: 'Testimonial Box Switcher',
     linkTo: '/testimonial-box-switcher',
   },
+  {
+    coverAlt: 'random-image-feed',
+    coverUrl: new URL('../assets/home/48-random-image-feed.png', import.meta.url).href,
+    title: 'Random Image Feed',
+    linkTo: '/random-image-feed',
+  },
 ];
 
 export default Home;

@@ -204,6 +204,10 @@ const routes: RouteObject[] = [
     element: lazyLoadPage('TestimonialBoxSwitcher'),
   },
   {
+    path: '/random-image-feed',
+    element: lazyLoadPage('RandomImageFeed'),
+  },
+  {
     path: '*',
     element: lazyLoadPage('Home'),
   },

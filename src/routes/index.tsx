@@ -208,6 +208,10 @@ const routes: RouteObject[] = [
     element: lazyLoadPage('RandomImageFeed'),
   },
   {
+    path: '/todo-list',
+    element: lazyLoadPage('TodoList'),
+  },
+  {
     path: '*',
     element: lazyLoadPage('Home'),
   },

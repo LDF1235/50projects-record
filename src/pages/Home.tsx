@@ -309,6 +309,12 @@ const cards = [
     title: 'Random Image Feed',
     linkTo: '/random-image-feed',
   },
+  {
+    coverAlt: 'todo-list',
+    coverUrl: new URL('../assets/home/49-todo-list.png', import.meta.url).href,
+    title: 'Todo List',
+    linkTo: '/todo-list',
+  },
 ];
 
 export default Home;

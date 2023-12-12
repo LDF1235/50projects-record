@@ -188,6 +188,10 @@ const routes: RouteObject[] = [
     element: lazyLoadPage('FeedbackUiDesign'),
   },
   {
+    path: '/custom-range-slider',
+    element: lazyLoadPage('CustomRangeSlider'),
+  },
+  {
     path: '*',
     element: lazyLoadPage('Home'),
   },

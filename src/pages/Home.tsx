@@ -279,6 +279,12 @@ const cards = [
     title: 'Feedback Ui Design',
     linkTo: '/feedback-ui-design',
   },
+  {
+    coverAlt: 'custom-range-slider',
+    coverUrl: new URL('../assets/home/44-custom-range-slider.png', import.meta.url).href,
+    title: 'Feedback Ui Design',
+    linkTo: '/custom-range-slider',
+  },
 ];
 
 export default Home;

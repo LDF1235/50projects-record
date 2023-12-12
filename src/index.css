@@ -31,6 +31,20 @@
     background-size: 400% 100%;
     animation: skeleton-loading 3s ease infinite;
   }
+
+  .mc-custom-slider {
+    -webkit-appearance: none;
+    @apply w-[300px];
+  }
+
+  .mc-custom-slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    @apply mt-[-7px] h-6 w-6 rounded-full border-[1px] border-solid border-[purple] bg-white;
+  }
+
+  .mc-custom-slider::-webkit-slider-runnable-track {
+    @apply h-[10px] w-full cursor-pointer rounded bg-[purple];
+  }
 }
 
 @keyframes heart-grow {

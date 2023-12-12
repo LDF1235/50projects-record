@@ -273,6 +273,12 @@ const cards = [
     title: 'Live User Filter',
     linkTo: '/live-user-filter',
   },
+  {
+    coverAlt: 'feedback-ui-design',
+    coverUrl: new URL('../assets/home/43-feedback-ui-design.png', import.meta.url).href,
+    title: 'Feedback Ui Design',
+    linkTo: '/feedback-ui-design',
+  },
 ];
 
 export default Home;

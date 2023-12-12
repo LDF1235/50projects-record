@@ -184,6 +184,10 @@ const routes: RouteObject[] = [
     element: lazyLoadPage('LiveUserFilter'),
   },
   {
+    path: '/feedback-ui-design',
+    element: lazyLoadPage('FeedbackUiDesign'),
+  },
+  {
     path: '*',
     element: lazyLoadPage('Home'),
   },

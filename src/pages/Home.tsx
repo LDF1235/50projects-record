@@ -282,8 +282,14 @@ const cards = [
   {
     coverAlt: 'custom-range-slider',
     coverUrl: new URL('../assets/home/44-custom-range-slider.png', import.meta.url).href,
-    title: 'Feedback Ui Design',
+    title: 'Custom Range Slider',
     linkTo: '/custom-range-slider',
+  },
+  {
+    coverAlt: 'netflix-mobile-navigation',
+    coverUrl: new URL('../assets/home/45-netflix-mobile-navigation.png', import.meta.url).href,
+    title: 'Netflix Mobile Navigation',
+    linkTo: '/netflix-mobile-navigation',
   },
 ];
 

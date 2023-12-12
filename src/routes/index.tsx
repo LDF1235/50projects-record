@@ -192,6 +192,10 @@ const routes: RouteObject[] = [
     element: lazyLoadPage('CustomRangeSlider'),
   },
   {
+    path: '/netflix-mobile-navigation',
+    element: lazyLoadPage('NetflixMobileNavigation'),
+  },
+  {
     path: '*',
     element: lazyLoadPage('Home'),
   },

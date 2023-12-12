@@ -297,6 +297,12 @@ const cards = [
     title: 'Quiz App',
     linkTo: '/quiz-app',
   },
+  {
+    coverAlt: 'testimonial-box-switcher',
+    coverUrl: new URL('../assets/home/47-testimonial-box-switcher.png', import.meta.url).href,
+    title: 'Testimonial Box Switcher',
+    linkTo: '/testimonial-box-switcher',
+  },
 ];
 
 export default Home;

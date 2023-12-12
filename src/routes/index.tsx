@@ -200,6 +200,10 @@ const routes: RouteObject[] = [
     element: lazyLoadPage('QuizApp'),
   },
   {
+    path: '/testimonial-box-switcher',
+    element: lazyLoadPage('TestimonialBoxSwitcher'),
+  },
+  {
     path: '*',
     element: lazyLoadPage('Home'),
   },

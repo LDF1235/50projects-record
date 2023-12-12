@@ -27,7 +27,7 @@ const DemoCard = (props: Props) => {
       />
 
       <div className='flex items-center justify-center flex-col w-full h-full absolute left-0 top-0 z-[1] cursor-pointer opacity-0 hover:opacity-100 transition-[opacity] duration-300 ease-in bg-[#9901ff]'>
-        <div className='font-bold text-white text-2xl'>{title}</div>
+        <div className='font-bold text-white text-2xl text-center'>{title}</div>
         <Link
           to={linkTo}
           className='mt-4 text-white font-[Alata,sans-serif]  py-3 px-[30px] bg-[#3b0281] font-medium'

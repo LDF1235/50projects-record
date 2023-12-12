@@ -212,6 +212,10 @@ const routes: RouteObject[] = [
     element: lazyLoadPage('TodoList'),
   },
   {
+    path: '/insect-catch-game',
+    element: lazyLoadPage('InsectCatchGame'),
+  },
+  {
     path: '*',
     element: lazyLoadPage('Home'),
   },

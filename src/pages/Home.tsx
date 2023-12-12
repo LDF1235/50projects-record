@@ -315,6 +315,12 @@ const cards = [
     title: 'Todo List',
     linkTo: '/todo-list',
   },
+  {
+    coverAlt: 'insect-catch-game',
+    coverUrl: new URL('../assets/home/50-insect-catch-game.png', import.meta.url).href,
+    title: 'Insect Catch Game',
+    linkTo: '/insect-catch-game',
+  },
 ];
 
 export default Home;

@@ -180,6 +180,10 @@ const routes: RouteObject[] = [
     element: lazyLoadPage('VerifyAccountUi'),
   },
   {
+    path: '/live-user-filter',
+    element: lazyLoadPage('LiveUserFilter'),
+  },
+  {
     path: '*',
     element: lazyLoadPage('Home'),
   },

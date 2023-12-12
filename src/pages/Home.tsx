@@ -20,7 +20,6 @@ const Home = () => {
     </div>
   );
 };
-
 const cards = [
   {
     coverAlt: 'expanding-cards',
@@ -267,6 +266,12 @@ const cards = [
     coverUrl: new URL('../assets/home/41-verify-account-ui.png', import.meta.url).href,
     title: 'Verify Account UI',
     linkTo: '/verify-account-ui',
+  },
+  {
+    coverAlt: 'live-user-filter',
+    coverUrl: new URL('../assets/home/42-live-user-filter.png', import.meta.url).href,
+    title: 'Live User Filter',
+    linkTo: '/live-user-filter',
   },
 ];
 

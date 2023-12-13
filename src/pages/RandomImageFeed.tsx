@@ -4,7 +4,7 @@ const RandomImageFeed = () => {
       <h2 className='font-bold text-center text-[32px] py-2'>Random Image Feed</h2>
 
       <div className=' mx-auto justify-between w-[920px] py-4 flex flex-wrap gap-y-2.5'>
-        {Array.from({ length: 15 }, (x, i) => (
+        {Array.from({ length: 15 }, (_, i) => (
           <img
             key={i}
             className='w-[300px]'
